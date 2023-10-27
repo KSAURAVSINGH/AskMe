@@ -1,0 +1,58 @@
+.scrollable-paragraph {
+width: 300px; /* Adjust the container width as needed */
+/* height: 400px; */
+min-height: 100px;
+max-height: 100px;
+background-color: #eac5dd;
+}
+
+.paragraph-output {
+    /* height: 97%; */
+    padding: 5px;
+    font-family: sans-serif; /* Specify the font family */
+    font-size: 16px; /* Set the font size */
+    color: #000000; /* Set the text color */    
+    line-height: 1.5;
+    margin: 0;
+    overflow: auto; /* Hide any overflowing content */
+    }
+
+.search-container{
+    width: 300px; 
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.search-box {
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  /* Style for the search button */
+.search-button {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Hover effect for the search button */
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+
+  

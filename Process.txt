@@ -1,0 +1,9 @@
+Chrome Extension
+
+1. To lookup anyword or group of strings and get the response from the ChatGPT in the pop up window
+
+
+1. User will install the extension.
+2. User will select any text and right click it, will tell to lookup using ChatGPT or we can change the name. 
+3. The short and precise response about that selected text will be displayed as pop up.
+4. If he clicks outside the pop up, it will disappear or we will have a cancel button there to remove the pop up.

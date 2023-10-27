@@ -1,0 +1,32 @@
+Rough ides
+
+1. Select the text you want to search for.
+2. Click the extrension icon
+3. The extension icon will directly show you with the response of the text you selected.
+4. It will also have a read more link, that will fill the text area with other details. It might have a scrolling feature. There must be limit of the pop up window size. 
+
+What things we need
+
+1. We need the text selected.
+2. We need to integrate chatGPT or bard, whichever is convinient and will pass a payload with the text selected and fetch the response.
+3. This response should be displayed in the pop up window.
+
+Intergration of ChatGPT
+
+1. As soon as we click the extension and we received the text, we have to call the chatGPT for the response.
+2. Search how to integrate and use its api.
+
+Pop-up windows
+
+1. There should be a maximum size limit.
+2. Read me link for more information
+3. Scrolling feature if the text size exceeds.
+4. Good CSS
+5. The text area should change based on the texts of requests and responses.
+6. A search box to search for the responses.
+7. The search box should increase in the box area based on the texts entered.
+8. A search button should be availabe.
+9. Some kind of CSS work when we are waiting for the response.
+10. Need to extract the response by removing the unneccesary lines and spaces
+11. Need to from the input text to make it relevant to the chatgpt.
+12. 
