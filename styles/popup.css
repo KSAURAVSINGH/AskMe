@@ -2,8 +2,9 @@
 width: 300px; /* Adjust the container width as needed */
 /* height: 400px; */
 min-height: 100px;
-max-height: 100px;
-background-color: #eac5dd;
+max-height: 500px;
+background-color: #3de9af;
+overflow: auto;
 }
 
 .paragraph-output {
@@ -11,10 +12,11 @@ background-color: #eac5dd;
     padding: 5px;
     font-family: sans-serif; /* Specify the font family */
     font-size: 16px; /* Set the font size */
-    color: #000000; /* Set the text color */    
+    color: #382901; /* Set the text color */    
+    background-color: #3de9af;
     line-height: 1.5;
     margin: 0;
-    overflow: auto; /* Hide any overflowing content */
+    /* overflow: auto; */
     }
 
 .search-container{

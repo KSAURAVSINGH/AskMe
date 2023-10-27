@@ -1,9 +1,4 @@
-// import { createSearchBox } from "./search";
 function createSearchBox(){
-
-  // first remove the existing element
-  // const existElForResponse = document.getElementById('text-response')
-  // existElForResponse.remove();
 
   const container = document.getElementById('container');
   const searchInput = document.createElement('input');
@@ -39,8 +34,7 @@ function createSearchBox(){
     await generateResponseFromGPT(searchQuery.toString());
     
   }
-  // document.getElementById("output").innerHTML  =  searchQuery;
-  
+
   }
 
   searchButton.addEventListener('click', handleSearch);
@@ -65,7 +59,7 @@ async function generateResponseFromGPT(inputValue){
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer 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'
+      'Authorization': 'Bearer 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'
     },
     'body': JSON.stringify(body)
   })
