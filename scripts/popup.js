@@ -59,7 +59,7 @@ async function generateResponseFromGPT(inputValue){
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer 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'
+      'Authorization': ''
     },
     'body': JSON.stringify(body)
   })

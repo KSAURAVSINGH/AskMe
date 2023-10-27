@@ -3,7 +3,7 @@ width: 300px; /* Adjust the container width as needed */
 /* height: 400px; */
 min-height: 100px;
 max-height: 500px;
-background-color: #3de9af;
+background-color: #92efd0;
 overflow: auto;
 }
 
@@ -13,7 +13,7 @@ overflow: auto;
     font-family: sans-serif; /* Specify the font family */
     font-size: 16px; /* Set the font size */
     color: #382901; /* Set the text color */    
-    background-color: #3de9af;
+    background-color: #92efd0;
     line-height: 1.5;
     margin: 0;
     /* overflow: auto; */
