@@ -53,7 +53,7 @@ async function generateResponseFromGPT(inputValue){
   const body = {
     "prompt": inputValue,
     "temperature": 0.5,
-    "max_tokens": 30,
+    "max_tokens": 100,
     "n": 1,
     "stop": null,
     "model": "text-davinci-002"
